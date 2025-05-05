@@ -42,15 +42,15 @@
     flex-direction: column;
     text-align: center;
     color: white;
+    gap: 1.3rem;
     font-size: 2rem;
 }
-.timer-box input{
-    display: flex;
-    min-height: 3.7rem;
+input{
+    height: 3.7rem;
+    max-width: 10rem ;
+    box-sizing: border-box;
     border: 4px solid transparent;
     border-radius: 6px;
-}
-
-.timer-box label{
-    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.7rem ;
 }
